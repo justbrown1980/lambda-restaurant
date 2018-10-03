@@ -33,7 +33,6 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <About />
