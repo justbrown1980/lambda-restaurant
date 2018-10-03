@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Menu = () => (
-    <section className="pattern-bg">
+    <section className="pattern-bg" id="menu">
         <ul className="menu-list l-container">
             <li>
                 <div className="menu-block">

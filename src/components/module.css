@@ -204,6 +204,7 @@
 /* Banner */
 
 .banner h2 {
+  text-transform: capitalize;
   margin-bottom: 5vh;
 }
 

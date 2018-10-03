@@ -23,12 +23,6 @@ const Header = ({ siteTitle }) => (
             <li><Link to="#">reservations</Link></li>
           </ul>
         </nav>
-
-        {/* <ul className="l-inline-list">
-          <li><Link to="#">Twitter</Link></li>
-          <li><Link to="#">Youtube</Link></li>
-          <li><Link to="#">Facebook</Link></li>
-        </ul> */}
         </header>
 
         <div className="banner">
@@ -36,7 +30,7 @@ const Header = ({ siteTitle }) => (
         <hr className="fancy-hr" />
         <ul className="l-inline-list">
           <li><Link to="#" className="btn btn-primary">book a table</Link></li>
-          <li><Link to="#" className="btn btn-secondary">see the menu</Link></li>
+          <li><Link to="#menu" className="btn btn-secondary">see the menu</Link></li>
         </ul>
       </div>
 
