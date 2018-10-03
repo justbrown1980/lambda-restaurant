@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
         <hr className="fancy-hr" />
         <ul className="l-inline-list">
           <li><Link to="#" className="btn btn-primary">book a table</Link></li>
-          <li><Link to="#menu" className="btn btn-secondary">see the menu</Link></li>
+          <li><Link to="#food-menu" className="btn btn-secondary">see the menu</Link></li>
         </ul>
       </div>
 

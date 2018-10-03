@@ -266,6 +266,11 @@ h3 {
   text-align: center;
 }
 
+.ingredients-list > li {
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+}
+
 .ingredients-list img {
   border-radius: 50%;
   border: 0.125rem solid;
