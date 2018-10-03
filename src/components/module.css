@@ -214,6 +214,9 @@
   margin: 0 auto;
 }
 
+.banner li {
+  margin: 0 0 1rem 0;
+}
 
 /*  About  */
 
