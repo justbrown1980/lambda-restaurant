@@ -214,8 +214,16 @@
   margin: 0 auto;
 }
 
-.banner li {
+.banner ul > li {
+  display: inline-block;
   margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 400px) {
+  .banner ul > li {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+  }
 }
 
 /*  About  */

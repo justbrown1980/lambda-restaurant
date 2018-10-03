@@ -11,15 +11,6 @@
     padding: 2vh 0 10vh 0;
 }
 
-.l-inline-list > li {
-    display: inline-block;
-    margin-right: 1rem;
-}
-
-.l-inline-list > li:last-child {
-    margin-right: 0;
-}
-
 .l-align-center {
     display: block;
     text-align: center;

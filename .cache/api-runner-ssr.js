@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/user/WIP/lambda-restuarant/restaurant/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/user/Documents/GitHub/lambda-restaurant/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/user/WIP/lambda-restuarant/restaurant/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/user/Documents/GitHub/lambda-restaurant/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Lambda Restaurant","short_name":"Lambda","start_url":"/","background_color":"#000000","theme_color":"#663399","display":"minimal-ui","icon":"src/images/lambda-logo.png"},
     },{
-      plugin: require('/Users/user/WIP/lambda-restuarant/restaurant/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/user/Documents/GitHub/lambda-restaurant/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Lato","Yeseva+One:400"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
