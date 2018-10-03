@@ -1,0 +1,68 @@
+.l-container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.l-header {
+    background: url(../images/banner-img.jpg) 0 0 no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    padding: 2vh 0 10vh 0;
+}
+
+.l-inline-list > li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.l-inline-list > li:last-child {
+    margin-right: 0;
+}
+
+.l-align-center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.l-align-right {
+    text-align: right;
+}
+
+.pattern-bg {
+    background: url(../images/contemporary_china.png) 0 0 repeat;
+}
+
+.l-about {
+    padding: 5vh 0;
+}
+@media screen and (min-width: 680px) {
+    .l-about ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+.l-ingredients {
+    background: url(../images/basil-in-a-metal-pot.jpg) 0 0 no-repeat;
+    background-size: cover;
+
+    padding: 10vh 0;
+}
+
+.l-menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem;
+}
+
+.l-quote {
+    background: url(../images/skewers.jpg) 0 0 no-repeat;
+    background-size: cover;
+
+    padding: 10vh 0;
+}
